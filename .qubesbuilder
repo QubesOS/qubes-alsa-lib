@@ -1,0 +1,12 @@
+host:
+  rpm:
+    build:
+    - alsa-lib.spec
+source:
+  files:
+  - url: https://www.alsa-project.org/files/pub/lib/alsa-lib-@VERSION@.tar.bz2
+    sha512: alsa-lib-@VERSION@.tar.bz2.sha512
+  - url: https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-@VERSION@.tar.bz2
+    sha512: alsa-ucm-conf-@VERSION@.tar.bz2.sha512
+  - url: https://www.alsa-project.org/files/pub/lib/alsa-topology-conf-@VERSION@.tar.bz2
+    sha512: alsa-topology-conf-@VERSION@.tar.bz2.sha512
